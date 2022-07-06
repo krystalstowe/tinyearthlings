@@ -1,0 +1,61 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  body {
+    margin: 0;
+  }
+  
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  header {
+  
+  }
+  .top-section {
+    background-image: url(Newbornhead.jpg);
+  }
+  .logo {
+    width: 200px;
+    height: auto;
+    float: left;
+  }
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  li {
+    margin: 20px 15px;
+  }
+  footer {
+  
+  }
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  

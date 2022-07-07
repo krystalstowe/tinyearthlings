@@ -1,0 +1,78 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  body {
+    margin: 0;
+  }
+  
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  header {
+  
+  }
+  .top-section {
+    background-image: url(newmom2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -18px;
+    height: 690px;
+    width: 100%;
+  }
+  .logo {
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-top: -30px;
+  }
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  li {
+    margin: 20px 15px;
+  }
+  div > h1, h3{
+    text-align: center;
+  }
+  
+  div > section {
+    width: 80%;
+    height: 500px;
+   
+}
+ 
+  
+  footer {
+  
+  }
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  

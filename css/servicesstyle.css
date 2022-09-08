@@ -24,6 +24,34 @@
   body {
     margin: 0;
   }
+
+  .top-section {
+    background-image: url(babyfeet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -18px;
+    height: 750px;
+    width: 100%;
+  }
+
+  .logo {
+    width: 200px;
+    height: auto;
+    float: left;
+  }
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 20px;
+  }
+  li {
+    margin: 20px 15px ;
+    background: rgba(255, 255, 255, 0.3);
+    
+  }
   
   
   /******************************************
